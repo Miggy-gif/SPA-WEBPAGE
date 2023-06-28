@@ -16,7 +16,7 @@
   justify-content: center;
   text-align: center;
 }
-
+/*
 .HApp {
   display: flex;
   min-width: 220vh;
@@ -26,7 +26,7 @@
   flex-direction: row;
   justify-content:center;
   position: fixed;
-}
+}*/
 
 .userPROFILE { 
   color: rgb(9, 8, 8);
@@ -47,9 +47,19 @@
 
 .Logout{
   margin-left: 100%;
-  margin-top: 10px;
+  margin-top: 20px;
   color: black;
   justify-content:center;
+  border: 1px solid black;
+
+}
+
+.Logout2{
+  margin-left: 80%;
+  margin-top: -20px;
+  color: black;
+  justify-content:center;
+  border: 1px solid black;
 
 }
 
@@ -88,6 +98,11 @@ button {
   color: #7439db;
 }
 
+.titlee{
+  margin-top: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+
 .link-btn {
   background: none;
   color: white;
@@ -97,16 +112,141 @@ button {
 .div1{
   height: 20%;
   width: 30%;
+  margin-left: 750px;
 }
 
-.mss{
-  margin-top: 20%;
-  margin-left: 15%;
-  background-color: white;
-  color: black;
-  height: 100px;
-  width: 800px;
-  justify-content: center;
-  align-items: center;
+.HApp {
+  width: 100%;
+  height: 625px;
+  background-image: linear-gradient(30deg, #f232d9, #dc9b05 );
+}
+
+.comments {
+  position: absolute;
+  bottom: 350px;
+  left: 40%;
+  transform: translateX(-50%);
+  max-height: 100px;
+  overflow-y: 'scroll';
+  flex-wrap: wrap;
+}
+
+.comments h2 {
   text-align: center;
+}
+
+.comments ul {
+  list-style: decimal;
+  padding: 1;
+}
+
+.comments li {
+  margin-bottom: 10px;
+}
+
+.commentInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -18%;
+  margin-right: 1%;
+  margin-top: 0px;
+}
+
+.commentInput input {
+  margin-right: 10px;
+}
+
+.commentInput button {
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.backg{
+  width: 5%;
+  height: 10%;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 40px;
+  margin-top: -60px;
+  margin-left: 80px;
+  background: white;
+}
+
+.insideProf{
+  width: 20%;
+  height: 20%;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.backg2{
+  width: 5%;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 40px;
+  margin-top: -50px;
+  margin-left: 80px;
+}
+
+.Profcontent{
+  width: 500px;
+  height: 500px;
+  background: white;
+  margin-left: -350px;
+  margin-top: -60px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.userProf{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.userProf2{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.userProf2:hover{
+  opacity: 0.5;
+}
+
+.ppage{
+  margin-top: 50px;
+}
+
+.inputc{
+  width: 40%;
+}
+
+.buttonc{
+  height: 40px;
+}
+
+.commentc{
+  width: 500px;
+  background: wheat;
+  margin-left: 125px;
+  border: 1px solid black;
+}
+
+.myProf{
+  background: black;
+  width: 50%;
+  height: 20%;
+  margin-top: 50px;
+  margin-left: 300px;
 }

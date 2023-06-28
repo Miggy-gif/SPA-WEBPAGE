@@ -3,6 +3,7 @@ import './App.css';
 import { Register } from "./Register";
 import { HomePage } from "./Homepage";
 
+
 function App() {
   const [email, setEmail] = useState('');
   const [pass, setPass] = useState('');
@@ -46,6 +47,7 @@ function App() {
       {
         currentForm === "register" ? (<Register Login = {toggleForm}/>) : (
         <div className="auth-form-container">
+        <h1 className="titlee">POST IT</h1>
         <h2>Login</h2>
             <label htmlFor="email">Email</label>
             <input value={email} onChange={(e) => setEmail(e.target.value)}type="email" placeholder="email@example.com" id="email" name="email" />
